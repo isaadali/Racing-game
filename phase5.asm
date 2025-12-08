@@ -2783,7 +2783,7 @@ FUEL_REFILL_AMOUNT   dw 50        ; Fuel restored per pickup
 MOVE_COOLDOWN_TIME   db 10        ; Frames before next move allowed
 buffer_segment       dw 0x7000
 ; Strings
-game_title           db '=== HIGHWAY RACER ===', 0
+game_title           db '=== F1 RACER ===', 0
 dev_names            db 'Devs: Saad Ali & Saad Sohail', 0
 roll_nos             db 'Rolls: 24L-0652 & 24L-0745', 0
 press_start          db 'Press ANY Key to Start', 0
@@ -2811,3 +2811,4 @@ score_buffer times 6 db 0
 temp_x  dw 0
 
 temp_y  dw 0
+
