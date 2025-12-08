@@ -1,11 +1,5 @@
 org 0x100
 
-; ============================================
-; HIGHWAY RACER - Complete with Music Integration
-; Developers: Ikram Ul Haq & Rohaan Ahmed
-; Roll Numbers: 24L-0767 & 24L-0548
-; ============================================
-
 start:
     mov ax, cs
     mov ss, ax
@@ -3181,9 +3175,9 @@ MOVE_COOLDOWN_TIME   db 10
 buffer_segment       dw 0x7000
 
 ; Strings
-game_title           db '=== HIGHWAY RACER ===', 0
-dev_names            db 'Devs: Ikram Ul Haq & Rohaan Ahmed', 0
-roll_nos             db 'Rolls: 24L-0767 & 24L-0548', 0
+game_title           db '=== F1 RACER ===', 0
+dev_names            db 'Devs: Saad Ali 24L-0652', 0
+roll_nos             db 'Devs: Saad Sohail 24L-0745', 0
 music_instruction    db 'Music: SPACE to toggle', 0
 press_start          db 'Press ANY Key to Start', 0
 input_prompt_name    db 'Enter Name: ', 0
@@ -3197,7 +3191,7 @@ instr_5              db 'ESC: Pause/Quit', 0
 instr_music          db 'SPACE: Toggle Music', 0
 instr_press          db 'Press ANY Key to Play', 0
 game_over_msg        db '=== GAME OVER ===', 0
-collision_msg        db 'Collision!', 0
+collision_msg        db 'Collision detected!', 0
 fuel_empty_msg       db 'Out of Fuel!', 0
 player_label         db 'Player: ', 0
 roll_label           db 'Roll No: ', 0
@@ -3213,4 +3207,5 @@ player_name_buf      times 20 db 0
 player_roll_buf      times 20 db 0
 score_buffer         times 6 db 0
 temp_x               dw 0
+
 temp_y               dw 0
