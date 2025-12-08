@@ -2784,8 +2784,8 @@ MOVE_COOLDOWN_TIME   db 10        ; Frames before next move allowed
 buffer_segment       dw 0x7000
 ; Strings
 game_title           db '=== HIGHWAY RACER ===', 0
-dev_names            db 'Devs: Ikram Ul Haq & Rohaan Ahmed', 0
-roll_nos             db 'Rolls: 24L-0767 & 24L-0548', 0
+dev_names            db 'Devs: Saad Ali & Saad Sohail', 0
+roll_nos             db 'Rolls: 24L-0652 & 24L-0745', 0
 press_start          db 'Press ANY Key to Start', 0
 input_prompt_name    db 'Enter Name: ', 0
 input_prompt_roll    db 'Enter Roll: ', 0
@@ -2809,4 +2809,5 @@ player_name_buf      times 20 db 0
 player_roll_buf      times 20 db 0
 score_buffer times 6 db 0
 temp_x  dw 0
+
 temp_y  dw 0
